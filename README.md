@@ -41,19 +41,44 @@ Inventory changes are saved automatically and loaded when the application starts
 
 *These are demonstration credentials for the college project.*
 
-## How to Run
+## How to Run StockFlow
 
-1. Install the Java Development Kit (JDK).
-2. Open Command Prompt and navigate to the `src` directory.
+### Prerequisites
+- Install the Java Development Kit (JDK).
+- Install Git, or download the project as a ZIP file from GitHub.
+
+### Steps
+
+1. Clone the repository:
+
+   ```cmd
+   git clone https://github.com/sneha252006/StockFlow.git
+   ```
+
+2. Navigate to the project's source directory:
+
+   ```cmd
+   cd StockFlow\src
+   ```
+
 3. Compile the Java files:
 
-   `javac Product.java InventoryDemo.java`
+   ```cmd
+   javac Product.java InventoryDemo.java
+   ```
 
 4. Run the application:
 
-   `java InventoryDemo`
+   ```cmd
+   java InventoryDemo
+   ```
 
-5. Log in using one of the demonstration accounts.
+5. Log in using one of the demonstration accounts:
+
+   - **Admin:** `admin` / `admin123`
+   - **Staff:** `staff` / `staff123`
+
+**Note:** The application creates `stock.csv` to store product data. Run the commands from the `src` directory so the file is created in the expected location.
 
 ## Project Status
 
