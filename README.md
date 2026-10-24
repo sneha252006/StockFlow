@@ -1,78 +1,72 @@
-\# StockFlow – Stock Management System
+# StockFlow – Stock Management System
 
+StockFlow is a Java console-based stock management system designed to simplify inventory and sales management for small businesses. It supports role-based access for administrators and staff, product management, sales processing, and inventory reporting.
 
+## Features
 
-StockFlow is a Java console-based stock management system designed to simplify inventory and sales management for small businesses.
+- Admin and Staff login with role-based permissions
+- Add, view, search, update, and delete products (Admin)
+- View and search products (Staff)
+- Update stock quantities
+- Record sales and generate billing receipts
+- Automatically deduct stock after sales
+- Low-stock alerts based on minimum stock levels
+- Generate inventory reports
+- Calculate total inventory value and available stock
+- Save and load product data automatically using CSV files
 
+## Technology Stack
 
+- Java
+- Object-Oriented Programming (OOP)
+- Java Collections (`ArrayList`)
+- File Handling and CSV Data Storage
+- Git and GitHub
 
-\## Features
+## Data Storage
 
+StockFlow uses a CSV file named `stock.csv` to store product details, including product ID, name, category, price, quantity, and minimum stock level.
 
+Inventory changes are saved automatically and loaded when the application starts. The CSV file can also be opened using Microsoft Excel.
 
-\- User login with administrator and regular user roles
+## Login Credentials
 
-\- Add, view, search, update, and delete products
+**Administrator**
+- Username: `admin`
+- Password: `admin123`
 
-\- Track available stock quantities
+**Staff**
+- Username: `staff`
+- Password: `staff123`
 
-\- Record sales and calculate bills
+*These are demonstration credentials for the college project.*
 
-\- Automatically update stock after sales
+## How to Run
 
-\- Generate low-stock alerts
+1. Install the Java Development Kit (JDK).
+2. Open Command Prompt and navigate to the `src` directory.
+3. Compile the Java files:
 
-\- View sales and inventory reports
+   `javac Product.java InventoryDemo.java`
 
-\- Store product and sales records in Excel files
+4. Run the application:
 
+   `java InventoryDemo`
 
+5. Log in using one of the demonstration accounts.
 
-\## Technology Stack
+## Project Status
 
+Core development completed. The application supports role-based login, product management, sales processing, stock alerts, inventory reports, and CSV-based persistence.
 
+## Future Improvements
 
-\- Java
+- Enhanced reports and analytics
+- Improved input validation and error handling
+- Sales transaction history
+- Secure user authentication
+- Additional inventory insights
 
-\- Object-Oriented Programming (OOP)
-
-\- Apache POI for Excel integration
-
-\- Git and GitHub
-
-
-
-\## Data Storage
-
-
-
-Excel files will store product details, sales transactions, and user information. Changes made through the application will be saved automatically.
-
-
-
-\## Project Status
-
-
-
-Planning and initial development.
-
-
-
-\## Future Improvements
-
-
-
-\- Enhanced reports and analytics
-
-\- Improved error handling and validation
-
-\- Additional inventory insights
-
-
-
-\---
-
-
+---
 
 Developed as a college Java project.
-
